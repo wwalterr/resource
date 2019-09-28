@@ -1,11 +1,19 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 
-from django.http import HttpResponse
-
-from django.contrib.auth.decorators import login_required
+from rest_framework import viewsets
 
 # Create your views here
 
-@login_required(login_url='/admin')
 def home(request):
-    return HttpResponse('Home')
+    return redirect('/admin')
+
+# View sets define the view behavior
+
+class EmployeesViewSet(viewsets.ModelViewSet):
+    from .serializers import EmployeesSerialize
+    
+    from .models import Employees
+    
+    queryset = Employees.objects.all()
+    
+    serializer_class = EmployeesSerialize

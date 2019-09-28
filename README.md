@@ -139,7 +139,19 @@ Open [127.0.0.1:8000](http://127.0.0.1:8000/).
 
 #### Debug
 
+<details>
+<summary>Editor</summary>
+
 To debug its recommended to use the [VSCode](https://code.visualstudio.com/) [debug tool](https://code.visualstudio.com/docs/editor/debugging), that provide debug for Python and for Django.
+
+</details>
+
+<details>
+<summary>Insomnia</summary>
+
+Its also recommended to debug via the browsable API or through requests to the API, via the available [collections](./collections/insomnia.json), that can be opened through [Insomnia](https://insomnia.rest/), [Postman](https://www.getpostman.com/) or another HTTP client.
+
+</details>
 
 #### Credits
 

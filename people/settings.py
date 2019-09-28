@@ -19,7 +19,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'application'
+    'application',
+    'rest_framework'
 ]
 
 MIDDLEWARE = [
@@ -33,6 +34,8 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'people.urls'
+
+# APPEND_SLASH = False
 
 TEMPLATES = [
     {
