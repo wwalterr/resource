@@ -2,6 +2,12 @@
 
 🤬 People resource management
 
+---
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/d2b2f710258f42bb949c3b0b01d3d247)](https://www.codacy.com/manual/Sphinxs/People?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Sphinxs/People&amp;utm_campaign=Badge_Grade) ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/sphinxs/people) [![Maintainability](https://api.codeclimate.com/v1/badges/c99faed633623f244c61/maintainability)](https://codeclimate.com/github/Sphinxs/People/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/c99faed633623f244c61/test_coverage)](https://codeclimate.com/github/Sphinxs/People/test_coverage)
+
+---
+
 #### Setup
 
 <details>
