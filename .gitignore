@@ -10,3 +10,6 @@ venv
 
 # Database
 db.sqlite3
+
+# Static files
+static

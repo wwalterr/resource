@@ -125,6 +125,17 @@ Create an super user to access the [127.0.0.1:8000/admin](http://127.0.0.1:8000/
 </details>
 
 <details>
+<summary>Static</summary>
+
+Generate the static files:
+
+```sh
+(venv) python manage.py collectstatic
+```
+
+</details>
+
+<details>
 <summary>Server</summary>
 
 Start the server:
@@ -134,6 +145,22 @@ Start the server:
 ```
 
 Open [127.0.0.1:8000](http://127.0.0.1:8000/).
+
+</details>
+
+#### Structure
+
+The project structure generated through `tree -L 1` can be found bellow:
+
+<details>
+<summary>Tree</summary>
+
+├── application          # Application
+├── collections          # Application requests
+├── manage.py            # Django shortcut
+├── people               # Project
+├── README.md            # Documentation
+└── requirements.txt     # Dependencies
 
 </details>
 
