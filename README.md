@@ -155,12 +155,14 @@ The project structure generated through `tree -L 1` can be found bellow:
 <details>
 <summary>Tree</summary>
 
+```
 ├── application          # Application
 ├── collections          # Application requests
 ├── manage.py            # Django shortcut
 ├── people               # Project
 ├── README.md            # Documentation
 └── requirements.txt     # Dependencies
+```
 
 </details>
 
