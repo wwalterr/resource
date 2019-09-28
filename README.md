@@ -1,6 +1,6 @@
 ### People
 
-People resource management
+🤬 People resource management
 
 #### Setup
 
