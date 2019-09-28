@@ -180,10 +180,7 @@ Its also recommended to debug via the browsable API or through requests to the A
 
 </details>
 
-#### Debug
-
-<details>
-<summary>Deploy</summary>
+#### Deploy
 
 The application can be found here on [Heroku](https://people-django.herokuapp.com/) and the tutorial to make the deploy can be found here on [Code Mentor](https://www.codementor.io/jamesezechukwu/how-to-deploy-django-app-on-heroku-dtsee04d4).
 
