@@ -17,7 +17,8 @@ router.register('employees', EmployeesViewSet)
 # being used
 urlpatterns = [
     path('', home, name='home'),
-    path('', include(router.urls), name='employees'),
+    path('jet/', include('jet.urls', 'jet')),
     path('admin/', admin.site.urls, name='admin'),
+    path('', include(router.urls), name='employees'),
     path('api/', include('rest_framework.urls'))
 ]

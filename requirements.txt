@@ -4,3 +4,4 @@ pylint
 djangorestframework
 markdown
 django-filter
+django-jet
